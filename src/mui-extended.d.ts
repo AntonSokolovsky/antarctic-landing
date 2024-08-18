@@ -17,5 +17,7 @@ declare module '@mui/material/Typography' {
     buttonTitle2: true;
     buttonTitle3: true;
     buttonTitle4: true;
+    linkTitle1: true;
+    linkTitle2: true;
   }
 }
