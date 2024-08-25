@@ -1,4 +1,5 @@
 import { ThemeOptions } from '@mui/material';
+import HelveticaNeue from '../assets/fonts/Helvetica-Neue/HelveticaNeue-Medium.woff2';
 declare module '@mui/material/styles' {
   interface TypographyVariants {
     body3: React.CSSProperties;
@@ -44,7 +45,7 @@ declare module '@mui/material/styles' {
 export const typography: ThemeOptions = {
   typography: {
     htmlFontSize: 16,
-    fontFamily: 'Helvetica Neue, sans-serif',
+    fontFamily: ['Helvetica Neue', 'sans-serif'].join(','),
     fontSize: 14,
     h1: {
       fontFamily: 'Oswald, sans-serif',
@@ -199,6 +200,7 @@ export const typography: ThemeOptions = {
       letterSpacing: '0.00714em',
     },
     buttonTitle1: {
+      fontFamily: 'Helvetica Neue',
       fontSize: '26px',
       fontStyle: 'normal',
       fontWeight: 500,
@@ -227,6 +229,7 @@ export const typography: ThemeOptions = {
       textTransform: 'uppercase',
     },
     linkTitle1: {
+      fontFamily: 'Helvetica Neue',
       fontSize: '14px',
       fontStyle: 'normal',
       fontWeight: 500,
@@ -239,6 +242,19 @@ export const typography: ThemeOptions = {
       fontWeight: 400,
       lineHeight: '100%',
       textTransform: 'uppercase',
+    },
+  },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: `
+        @font-face {
+          font-family: 'Helvetica Neue';
+          font-style: normal;
+          font-display: swap;
+          font-weight: 400;
+          src: local('Helvetica'), local('Helvetica Neue'), url(${HelveticaNeue}) format('woff2');
+        }
+      `,
     },
   },
 };
