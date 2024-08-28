@@ -1,3 +1,4 @@
+import { AboutTour } from '../AboutTour';
 import { FirstScreen } from '../FirstScreen';
 import { Header } from '../Header';
 
@@ -6,6 +7,7 @@ export function MainPage() {
     <>
       <Header />
       <FirstScreen />
+      <AboutTour />
     </>
   );
 }
