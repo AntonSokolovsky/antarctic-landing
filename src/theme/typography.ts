@@ -1,5 +1,5 @@
 import { ThemeOptions } from '@mui/material';
-import HelveticaNeue from '../assets/fonts/Helvetica-Neue/HelveticaNeue-Medium.woff2';
+import HelveticaNeue from '../assets/fonts/Helvetica-Neue/HelveticaNeueMedium.otf';
 declare module '@mui/material/styles' {
   interface TypographyVariants {
     body3: React.CSSProperties;
@@ -19,6 +19,7 @@ declare module '@mui/material/styles' {
     buttonTitle4: React.CSSProperties;
     linkTitle1: React.CSSProperties;
     linkTitle2: React.CSSProperties;
+    text1: React.CSSProperties;
   }
 
   interface TypographyVariantsOptions {
@@ -39,6 +40,7 @@ declare module '@mui/material/styles' {
     buttonTitle4: React.CSSProperties;
     linkTitle1: React.CSSProperties;
     linkTitle2: React.CSSProperties;
+    text1: React.CSSProperties;
   }
 }
 
@@ -57,6 +59,7 @@ export const typography: ThemeOptions = {
       letterSpacing: '-4.2px',
     },
     h2: {
+      fontFamily: 'Helvetica Neue, sans-serif',
       fontWeight: 400,
       fontSize: '48px',
       lineHeight: '100%',
@@ -90,6 +93,7 @@ export const typography: ThemeOptions = {
       textTransform: 'uppercase',
     },
     body1: {
+      fontFamily: 'Helvetica Neue, sans-serif',
       fontSize: '16px',
       fontStyle: 'normal',
       fontWeight: 400,
@@ -97,6 +101,7 @@ export const typography: ThemeOptions = {
       letterSpacing: '-0.48px',
     },
     body2: {
+      fontFamily: 'Helvetica Neue, sans-serif',
       fontSize: '32px',
       fontStyle: 'normal',
       fontWeight: 400,
@@ -150,6 +155,7 @@ export const typography: ThemeOptions = {
       textTransform: 'uppercase',
     },
     description: {
+      fontFamily: 'Helvetica Neue, sans-serif',
       fontSize: '16px',
       fontStyle: 'normal',
       fontWeight: 500,
@@ -242,6 +248,15 @@ export const typography: ThemeOptions = {
       fontWeight: 400,
       lineHeight: '100%',
       textTransform: 'uppercase',
+    },
+    text1: {
+      fontFamily: 'Helvetica Neue, sans-serif',
+      fontSize: '16px',
+      fontStyle: 'normal',
+      fontWeight: 400,
+      lineHeight: '120%',
+      letterSpacing: '-0.48px',
+      opacity: 0.6,
     },
   },
   components: {
