@@ -1,4 +1,5 @@
 import { AboutTour } from '../AboutTour';
+import AboutUs from '../AboutUs/AboutUs';
 import { AdditionalInfo } from '../AdditionalInfo';
 import { FirstScreen } from '../FirstScreen';
 import { Header } from '../Header';
@@ -12,6 +13,7 @@ export function MainPage() {
       <AboutTour />
       <AdditionalInfo />
       <OtherDestination />
+      <AboutUs />
     </>
   );
 }
