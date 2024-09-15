@@ -7,4 +7,5 @@ export interface ButtonEllipseProps {
   rotate?: string;
   width: string;
   margin?: string;
+  color?: string;
 }

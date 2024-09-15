@@ -1,9 +1,6 @@
 import { Button, Typography } from '@mui/material';
 import { ButtonEllipseProps } from './ButtonEllipseProps';
 
-// export function ButtonEllipse({ bgColor, children }: ButtonEllipseProps) {
-//   return <Button sx={{ bgColor }}>{children}</Button>;
-// }
 export function ButtonEllipse({
   bgColor,
   variantTypography,
@@ -11,12 +8,14 @@ export function ButtonEllipse({
   rotate,
   width,
   margin,
+  color,
 }: ButtonEllipseProps) {
   return (
     <Button
       sx={{
         borderRadius: '100%',
         bgcolor: bgColor,
+        color: color,
         '&:hover': {
           bgcolor: bgColor,
         },
