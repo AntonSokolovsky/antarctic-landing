@@ -130,6 +130,7 @@ export const typography: ThemeOptions = {
       lineHeight: '100%',
       letterSpacing: '-1.6px',
       textTransform: 'uppercase',
+      opacity: 0.2,
     },
     numbers3: {
       fontFamily: 'Oswald',
