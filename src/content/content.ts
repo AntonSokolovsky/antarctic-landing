@@ -1,4 +1,9 @@
 import balconySuit from '../assets/img/balcony-suite.jfif';
+import southPoleImg from '../assets/img/south-pole.jfif';
+import moroccoImg from '../assets/img/morocco.jfif';
+import northPoleImg from '../assets/img/north-pole.jfif';
+import amazonImg from '../assets/img/amazon.jfif';
+
 export const TEXT = {
   aboutTour: {
     descriptor: 'expedition overview',
@@ -123,6 +128,34 @@ export const TEXT = {
       included: {},
       cancellationPolicy: {},
       iternary: {},
+    },
+  },
+  otherDestination: {
+    descriptor: 'other destinations',
+    title: `EXPEDITIONS TO IGNITE
+THE HUMAN SPIRIT`,
+    subtitle: `Join us on remarkable journeys to India, Alaska, Morocco, and beyond! Guided by seasoned experts, our expeditions guarantee immersive experiences and unforgettable adventures.`,
+    destinations: {
+      southPole: {
+        title: 'south pole',
+        coordinates: '90° S, 45° E',
+        image: southPoleImg,
+      },
+      morocco: {
+        title: 'morocco',
+        coordinates: '32°N, 6°W',
+        image: moroccoImg,
+      },
+      amazon: {
+        title: 'amazon',
+        coordinates: '3°S, 60°W',
+        image: amazonImg,
+      },
+      northPole: {
+        title: 'north pole',
+        coordinates: '90°N, 135°W',
+        image: northPoleImg,
+      },
     },
   },
 };
