@@ -3,6 +3,8 @@ import southPoleImg from '../assets/img/south-pole.jfif';
 import moroccoImg from '../assets/img/morocco.jfif';
 import northPoleImg from '../assets/img/north-pole.jfif';
 import amazonImg from '../assets/img/amazon.jfif';
+import aboutUsImgLeft from '../assets/img/about-us-1.jfif';
+import aboutUsImgRight from '../assets/img/about-us-2.png';
 
 export const TEXT = {
   aboutTour: {
@@ -157,5 +159,18 @@ THE HUMAN SPIRIT`,
         image: northPoleImg,
       },
     },
+  },
+  aboutUs: {
+    descriptor: 'about us',
+    title: {
+      part1: 'Ice Axe Expeditions offers ',
+      part2: 'once-in-a-lifetime adventure With',
+      part3: 'expert guides, we inspire the daring',
+      part4: 'spirit from the Arctic to Antarctica',
+    },
+    subtitle: `Ice Axe Expeditions is an award-winning adventure travel company which pioneered human-powered experiences in some of the most remote corners of the globe. Led by renowned polar explorer Doug Stoup, we specialize in human-powered journeys to remote corners of the globe. Stoup's passion drives us to advocate for polar protection and educate on environmental conservation.`,
+    imageLeft: aboutUsImgLeft,
+    imageRight: aboutUsImgRight,
+    text: `For over two decades, we travel to places of natural beauty with engaging people who are looking for adventure in regions many may not even know exist.`,
   },
 };
