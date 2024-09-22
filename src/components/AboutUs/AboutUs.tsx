@@ -54,6 +54,7 @@ export default function AboutUs() {
               width={'294px'}
               height={'256px'}
               urlImage={TEXT.aboutUs.imageLeft}
+              gradient
             />
           </Grid>
           <Grid item md={2} mt={'20px'}>
@@ -61,6 +62,7 @@ export default function AboutUs() {
               width={'595px'}
               height={'349px'}
               urlImage={TEXT.aboutUs.imageRight}
+              gradient
             />
           </Grid>
         </Grid>

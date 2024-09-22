@@ -4,4 +4,5 @@ export interface ImageBoxProps {
   urlImage: string;
   width: BoxProps['width'];
   height: BoxProps['height'];
+  gradient?: boolean;
 }

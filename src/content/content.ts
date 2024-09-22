@@ -179,7 +179,14 @@ THE HUMAN SPIRIT`,
   gallery: {
     title: 'Enjoy the solitude of a glacial land',
     descriptor: 'gallery',
-    images: [galleryImg1, galleryImg2, galleryImg3],
+    images: [
+      galleryImg1,
+      galleryImg2,
+      galleryImg3,
+      galleryImg1,
+      galleryImg2,
+      galleryImg3,
+    ],
     button: 'drag',
   },
 };

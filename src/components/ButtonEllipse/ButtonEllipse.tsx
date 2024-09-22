@@ -1,15 +1,17 @@
 import { Button, Typography } from '@mui/material';
 import { ButtonEllipseProps } from './ButtonEllipseProps';
 
-export function ButtonEllipse({
-  bgColor,
-  variantTypography,
-  text,
-  rotate,
-  width,
-  margin,
-  color,
-}: ButtonEllipseProps) {
+export function ButtonEllipse(props: ButtonEllipseProps) {
+  const {
+    bgColor,
+    variantTypography,
+    text,
+    rotate,
+    width,
+    margin,
+    color,
+    ...other
+  } = props;
   return (
     <Button
       sx={{
@@ -24,6 +26,7 @@ export function ButtonEllipse({
         height: width,
         margin: margin,
       }}
+      {...other}
     >
       <Typography variant={variantTypography}>{text}</Typography>
     </Button>
