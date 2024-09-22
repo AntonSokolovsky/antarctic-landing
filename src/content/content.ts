@@ -5,6 +5,9 @@ import northPoleImg from '../assets/img/north-pole.jfif';
 import amazonImg from '../assets/img/amazon.jfif';
 import aboutUsImgLeft from '../assets/img/about-us-1.jfif';
 import aboutUsImgRight from '../assets/img/about-us-2.png';
+import galleryImg1 from '../assets/img/gallery-1.jfif';
+import galleryImg2 from '../assets/img/gallery-2.jfif';
+import galleryImg3 from '../assets/img/gallery-3.jfif';
 
 export const TEXT = {
   aboutTour: {
@@ -172,5 +175,18 @@ THE HUMAN SPIRIT`,
     imageLeft: aboutUsImgLeft,
     imageRight: aboutUsImgRight,
     text: `For over two decades, we travel to places of natural beauty with engaging people who are looking for adventure in regions many may not even know exist.`,
+  },
+  gallery: {
+    title: 'Enjoy the solitude of a glacial land',
+    descriptor: 'gallery',
+    images: [
+      galleryImg1,
+      galleryImg2,
+      galleryImg3,
+      galleryImg1,
+      galleryImg2,
+      galleryImg3,
+    ],
+    button: 'drag',
   },
 };

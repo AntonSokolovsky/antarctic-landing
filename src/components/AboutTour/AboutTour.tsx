@@ -46,8 +46,18 @@ export function AboutTour() {
           justifyContent={'center'}
           mt={'20px'}
         >
-          <ImageBox width={'170px'} height={'141px'} urlImage={aboutTourImg1} />
-          <ImageBox width={'170px'} height={'141px'} urlImage={aboutTourImg2} />
+          <ImageBox
+            width={'170px'}
+            height={'141px'}
+            urlImage={aboutTourImg1}
+            gradient
+          />
+          <ImageBox
+            width={'170px'}
+            height={'141px'}
+            urlImage={aboutTourImg2}
+            gradient
+          />
         </Grid>
         <Grid item xs={2} mt={'20px'}>
           <Box

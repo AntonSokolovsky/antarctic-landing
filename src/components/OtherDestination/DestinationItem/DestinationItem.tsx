@@ -31,6 +31,7 @@ export function DestinationItem({
           <CurveArrow />
         </CardContent>
         <CardMedia
+          component="div"
           sx={{
             height: 217,
             width: 254,
